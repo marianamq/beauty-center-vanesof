@@ -1,0 +1,27 @@
+@import "./bootstrap/bootstrap.scss";
+
+$wine: #99003d;
+$pink: #e6005c;
+$violet:#8a2be2;
+
+$light: #f0cddb;
+$dark: #0A0212;
+
+$colors: (
+    "wine": $wine,
+    "pink": $pink,
+    "violet": $violet
+);
+
+$primary: #99003d;
+$secondary: #e6005c;
+$info:#8a2be2;
+
+$body-bg: $light;
+$body-color: $violet;
+
+
+$link-hover-color: darken($light, 15%);
+$link-hover-decoration: none;
+
+$grid-gutter-width: 25px;

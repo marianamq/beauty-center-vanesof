@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+</body>
+</html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description=" content="Comunicate con nosotros si querés agendar un curso,
+         turno para atenderte o si tenés una consulta">
+        <meta name="keywords" content="Contacto, Email, Datos, Clientes, Información, Turnos">
+        <link rel="stylesheet" href="./styles.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Nixie+One&display=swap" rel="stylesheet">
+        <title>Contacto</title>
+    </head>
+    <body>
+
+
+        <header>
+            <nav>
+                <img src="./beautycenter-logo.jpg" alt="beautycenter-logo" height="110px">
+                <ul>
+                    <li><a href="./index.html">Inicio</a></li>
+                    <li><a href="./nosotros.html">Nosotros</a></li>
+                    <li><a href="./servicios.html">Servicios</a></li>
+                    <li class="submenu">
+                        <span>
+                            Cursos
+                        </span>
+                        <ul>
+                            <li><a href="./cursos.html">Cejas</a></li>
+                            <li><a href="./cursos.html">Pestañas</a></li>
+                            <li><a href="./cursos.html">Manicure</a></li>
+                            <li><a href="./cursos.html">Esculpidas</a></li>
+                        </ul>  
+                     </li>
+                    <li><a href="./galeria.html">Galería</a></li>
+                    <li><a href="./contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+
+       <section>
+            <div class="form_contacto">
+                <h2>¡Déjanos acá tus datos si querés reservar una cita o un curso!</h2>
+                <form action="" method="POST">
+                    <div>
+                        <label for="fullName">Nombre:</label>
+                        <input type="text" name="fullname" id="fullName" required>
+                    </div>
+                    <div>
+                        <label for="fullName">Apellido:</label>
+                        <input type="text" name="fullname" id="fullName" required>
+                    </div>
+                    <div>
+                        <label for="fullName">E-mail:</label>
+                        <input type="email" name="email" id="email" required>
+                    </div>
+                    <div>
+                        <label for="age">DNI</label>
+                        <input type="number" name="edad" id="age" min="1000"required>
+                    </div>
+                    <div>
+                        <label for="interest"> Quisiera reservar</label>
+                     <select name="interest" id="interest">
+                        <option value="Una cita">Una cita</option>
+                        <option value="Un curso">Un curso</option>
+                        <option value="Otro">Otro</option>
+                    </select>
+                    </div>
+                    <h2>¿Tenés alguna consulta o comentario?</h2>
+                    <div>
+                        <label for="comments"></label>
+                        <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
+                    </div>
+                    <div>
+                        <label for="">
+                            <input type="checkbox" name="conditions" value="true"> Deseo recibir notificaciones de descuentos y cursos.
+                        </label>
+                    </div>
+                    <div class="boton-limpiar">
+                        <input type="reset" value="Limpiar Formulario">
+                    </div>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+       </section>
+
+        <footer>
+            <div>
+                <p> Info@contacto.com</p>
+                <p>Terminos y condiciones</p>
+            </div>
+          Copyright Mariana Márquez &copy; 2020
+        </footer>
+    </body>
+
+</html>
