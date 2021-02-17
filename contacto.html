@@ -8,7 +8,7 @@
         <meta name="description=" content="Comunicate con nosotros si querés agendar un curso,
          turno para atenderte o si tenés una consulta">
         <meta name="keywords" content="Contacto, Email, Datos, Clientes, Información, Turnos">
-        <link rel="stylesheet" href="./styles.css">
+        <link rel="stylesheet" href="./css/prueba.css">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Nixie+One&display=swap" rel="stylesheet">
         <title>Contacto</title>
@@ -40,49 +40,44 @@
             </nav>
         </header>
 
-       <section>
+       <section class="container">
             <div class="form_contacto">
                 <h2>¡Déjanos acá tus datos si querés reservar una cita o un curso!</h2>
-                <form action="" method="POST">
-                    <div>
-                        <label for="fullName">Nombre:</label>
-                        <input type="text" name="fullname" id="fullName" required>
+                
+                <div class="row">
+                    <div class="col-6">
+                        <form action="">
+                            <div class="form-group row">
+                                <label for="" class="col-2 col-form-label">Nombre:</label>
+                                <input type="text" placeholder="Julieta" class="form-control col-10">
+                            </div>
+                            <div class="form-group row">
+                                <label for="" class="col-2 col-form-label">Apellido:</label>
+                                <input type="text" placeholder="Perez" class="form-control col-10">
+                            </div>
+                            <div class="form-group row">
+                                <label for="" class="col-2 col-form-label">Núm de Contacto:</label>
+                                <input type="tel" placeholder="11 6328-7678" class="form-control col-10">
+                            </div>
+                            <div class="form-group row">
+                                <label for="" class="col-2 col-form-label">E-mail:</label>
+                                <input type="email" placeholder="julietaperez_@gmail.com" class="form-control col-10">
+                            </div>
+                            <div class="form-group row">
+                                <label for="" class="col-3 col-form-label">Quiero reservar</label>
+                                <select class="form-control col-9" id="">
+                                    <option>Curso</option>
+                                    <option>Turno</option>
+                                    <option>Tengo una consulta</option>
+                                </select>
+                            </div>
+                            <div class="form-group row">
+                                <label for="">Escribe tu consulta ¡pronto nos contactaremos contigo!</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                              </div>
+                        </form>
                     </div>
-                    <div>
-                        <label for="fullName">Apellido:</label>
-                        <input type="text" name="fullname" id="fullName" required>
-                    </div>
-                    <div>
-                        <label for="fullName">E-mail:</label>
-                        <input type="email" name="email" id="email" required>
-                    </div>
-                    <div>
-                        <label for="age">DNI</label>
-                        <input type="number" name="edad" id="age" min="1000"required>
-                    </div>
-                    <div>
-                        <label for="interest"> Quisiera reservar</label>
-                     <select name="interest" id="interest">
-                        <option value="Una cita">Una cita</option>
-                        <option value="Un curso">Un curso</option>
-                        <option value="Otro">Otro</option>
-                    </select>
-                    </div>
-                    <h2>¿Tenés alguna consulta o comentario?</h2>
-                    <div>
-                        <label for="comments"></label>
-                        <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
-                    </div>
-                    <div>
-                        <label for="">
-                            <input type="checkbox" name="conditions" value="true"> Deseo recibir notificaciones de descuentos y cursos.
-                        </label>
-                    </div>
-                    <div class="boton-limpiar">
-                        <input type="reset" value="Limpiar Formulario">
-                    </div>
-                    <button type="submit">Enviar</button>
-                </form>
+                </div>
             </div>
        </section>
 
