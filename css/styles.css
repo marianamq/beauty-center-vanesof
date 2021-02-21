@@ -2611,7 +2611,8 @@ textarea.form-control {
       transition: none; } }
 
 body {
-  background-image: url(../images/pink_rice.png); }
+  background-image: url(../images/pink_rice.png);
+  font-family: 'Josefin Sans', sans-serif; }
 
 nav {
   background-color: #F8ADB4;
@@ -2620,19 +2621,14 @@ nav {
   nav .nav-item {
     margin: 5px; }
     nav .nav-item .nav-link {
-      text-transform: uppercase;
-      font-family: 'Josefin Sans', sans-serif; }
+      text-transform: uppercase; }
   nav .dropdown-menu {
     background-color: #f6d6d9; }
     nav .dropdown-menu .dropdown-item {
-      font-family: 'Josefin Sans', sans-serif;
       text-transform: uppercase; }
 
 .carousel {
   padding: 15px; }
-
-.inicio__titulo {
-  font-family: 'Josefin Sans', sans-serif; }
 
 .inicio__contenido {
   font-family: 'Raleway', sans-serif; }
@@ -2646,8 +2642,7 @@ footer {
     text-transform: uppercase;
     font-size: 13px;
     margin: 5px;
-    margin-left: 10px;
-    font-family: 'Josefin Sans', sans-serif; }
+    margin-left: 10px; }
   footer .footer_icon {
     color: #5a0225;
     font-size: 35px;
@@ -2657,8 +2652,7 @@ footer {
   transition: all 1s ease-in-out; }
   .nosotros__container .nosotros__title {
     font-size: 50px;
-    margin-bottom: 30px;
-    font-family: 'Josefin Sans', sans-serif; }
+    margin-bottom: 30px; }
   .nosotros__container .nosotros__text--p {
     padding: 1rem;
     color: blueviolet;
@@ -2672,3 +2666,46 @@ footer {
       transform: translate(30px) scale(1.2);
       transform-origin: center;
       box-shadow: -10px 10px #99003d6b; }
+
+.servicios__cont {
+  display: flex;
+  justify-content: center;
+  height: 250px;
+  padding: 1rem;
+  margin-bottom: 30px;
+  text-align: center;
+  align-items: center;
+  animation-name: desvanecer;
+  animation-duration: 2s;
+  animation-delay: 1s; }
+  .servicios__cont .servicios__card {
+    display: block; }
+    .servicios__cont .servicios__card .servicios__card--title {
+      display: inline;
+      padding: 5px;
+      font-size: 40;
+      text-transform: uppercase;
+      color: #e6005c; }
+    .servicios__cont .servicios__card .servicios__card--p {
+      display: block;
+      color: blueviolet;
+      font-size: 20px;
+      width: 600px;
+      padding: 10px;
+      margin: 10px;
+      text-align: justify;
+      font-family: 'Raleway', sans-serif; }
+  .servicios__cont img {
+    height: 100%;
+    margin: 5px;
+    box-shadow: 5px 5px #8b8b8b32;
+    border-radius: 2%;
+    transition: all 1s ease; }
+    .servicios__cont img:hover {
+      transform: translate(10px) scale(1.1);
+      transform-origin: center;
+      box-shadow: -10px 10px #99003d6b; }
+  .servicios__cont .moverIzquierda {
+    transform: translate(-30px); }
+  .servicios__cont .moverDerecha {
+    transform: translate(30px); }
