@@ -66,12 +66,12 @@ nav{
     padding: 15px;
 }
 
-.inicio__contenido{
-    font-family: 'Raleway', sans-serif;
-}
-
 .inicio__titulo{
     font-family: 'Josefin Sans', sans-serif;
+}
+
+.inicio__contenido{
+    font-family: 'Raleway', sans-serif;
 }
 
 footer{
@@ -93,3 +93,27 @@ footer{
     }
 }
 
+.nosotros__container{
+    transition: all 1s ease-in-out;
+    .nosotros__title{
+        font-size: 50px;
+        margin-bottom: 30px;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+    .nosotros__text--p{
+        padding: 1rem;
+        color: blueviolet;
+        font-size: 20px;
+        text-align: justify;
+        font-family: 'Raleway', sans-serif;       
+    }
+    .nosotros__img img{
+        transition: all 1s ease-in-out;
+        margin: 2px;
+        &:hover{
+            transform: translate(30px) scale(1.2);
+            transform-origin: center;
+            box-shadow: -10px 10px #99003d6b;
+        }
+    }
+}
