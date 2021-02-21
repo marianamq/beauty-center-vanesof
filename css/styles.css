@@ -2609,3 +2609,46 @@ textarea.form-control {
   @media (prefers-reduced-motion: reduce) {
     .collapsing {
       transition: none; } }
+
+body {
+  background-image: url(../images/pink_rice.png); }
+
+nav {
+  background-color: #F8ADB4;
+  height: 80px;
+  margin-bottom: 40px; }
+  nav .nav-item {
+    margin: 5px; }
+    nav .nav-item .nav-link {
+      text-transform: uppercase;
+      font-family: 'Josefin Sans', sans-serif; }
+  nav .dropdown-menu {
+    background-color: #f6d6d9; }
+    nav .dropdown-menu .dropdown-item {
+      font-family: 'Josefin Sans', sans-serif;
+      text-transform: uppercase; }
+
+.carousel {
+  padding: 15px; }
+
+.inicio__contenido {
+  font-family: 'Raleway', sans-serif; }
+
+.inicio__titulo {
+  font-family: 'Josefin Sans', sans-serif; }
+
+footer {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #F8ADB4;
+  color: #5a0225; }
+  footer .footer_info a {
+    text-transform: uppercase;
+    font-size: 13px;
+    margin: 5px;
+    margin-left: 10px;
+    font-family: 'Josefin Sans', sans-serif; }
+  footer .footer_icon {
+    color: #5a0225;
+    font-size: 35px;
+    margin: 15px; }

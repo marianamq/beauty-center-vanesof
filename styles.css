@@ -1,0 +1,62 @@
+body{
+    background-image: url(./images/pink_rice.png);
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+nav{
+    background-color: #F8ADB4;
+    height: 80px;
+}
+
+.navbar{
+    margin-bottom: 30px;
+}
+.navbar-brand img {
+    height: 80px;
+}
+
+.nav-item{
+    margin: 5px;
+}
+
+.nav-link{
+    color: white;
+    text-transform: uppercase;
+}
+
+.nav-link:hover{
+    color: rgb(245, 153, 153);
+}
+
+.carousel{
+    padding: 15px;
+}
+
+.inicio__contenido{
+    font-family: 'Raleway', sans-serif;
+}
+
+.inicio__titulo{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+footer{
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #F8ADB4;
+    color: #5a0225;
+}
+
+.footer_info a{
+    text-transform: uppercase;
+    font-size: 13px;
+    margin: 5px;
+    margin-left: 10px;
+}
+
+.footer_icon{
+    color: #5a0225;
+    font-size: 35px;
+    margin: 15px;
+}

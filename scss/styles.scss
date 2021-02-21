@@ -10,3 +10,86 @@
 @import 'tables';
 @import 'transitions';
 
+
+
+$wine: #99003d;
+$pink: #e6005c;
+$violet:#8a2be2;
+
+$light: #f0cddb;
+$dark: #0A0212;
+
+$colors: (
+    "wine": $wine,
+    "pink": $pink,
+    "violet": $violet
+);
+
+$primary: #99003d;
+$secondary: #e6005c;
+$info:#8a2be2;
+
+$body-bg: $light;
+$body-color: $violet;
+
+
+$link-hover-color: darken($light, 15%);
+$link-hover-decoration: none;
+
+$grid-gutter-width: 25px;
+
+body{
+    background-image: url(../images/pink_rice.png);
+}
+
+nav{
+    background-color: #F8ADB4;
+    height: 80px;
+    margin-bottom: 40px;
+    .nav-item{
+        margin: 5px;
+        .nav-link{
+            text-transform: uppercase;
+            font-family: 'Josefin Sans', sans-serif;
+        }
+    }
+    .dropdown-menu{
+        background-color: #f6d6d9;
+        .dropdown-item{
+            font-family: 'Josefin Sans', sans-serif;
+            text-transform: uppercase;
+        }
+    }
+}
+
+.carousel{
+    padding: 15px;
+}
+
+.inicio__contenido{
+    font-family: 'Raleway', sans-serif;
+}
+
+.inicio__titulo{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+footer{
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #F8ADB4;
+    color: #5a0225;
+    .footer_info a{
+        text-transform: uppercase;
+        font-size: 13px;
+        margin: 5px;
+        margin-left: 10px;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+    .footer_icon{
+        color: #5a0225;
+        font-size: 35px;
+        margin: 15px;
+    }
+}
+
