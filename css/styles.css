@@ -2720,3 +2720,15 @@ footer {
   .card img {
     width: 280px;
     height: auto; }
+
+.galeria_titulo {
+  color: #99003d;
+  width: 800px;
+  margin-bottom: 40px; }
+  .galeria_titulo h1 {
+    font-size: 30px; }
+  .galeria_titulo h3 {
+    font-size: 20px; }
+
+.img_galeria {
+  margin-bottom: 30px; }
