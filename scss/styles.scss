@@ -165,20 +165,21 @@ footer{
     }
 }
 
+.sinmargen{
+    margin-bottom: 0px;
+}
+
+.banner_img{
+    margin-bottom: 50px;
+}
 
 .card{
-    width: 320px;
-    height: auto;
-    margin-bottom: 30px;
-    background: none;
-    border: #99003d 2px solid;
-    box-shadow: -8px 10px #2e2e2e6b;
-    & img{
-        width: 280px;
-        height: auto;
-        
+    margin-bottom: 40px;
+    .img_card{
+        height: 450px;
+        width: auto;
     }
-    .card-body{
-        
+    .card-text{
+        font-size: 20px;
     }
 }
