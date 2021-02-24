@@ -2717,23 +2717,10 @@ footer {
   margin-bottom: 50px; }
 
 .card {
-<<<<<<< HEAD
   margin-bottom: 40px; }
   .card .img_card {
     height: 450px;
     width: auto; }
-  .card .card-text {
-    font-size: 20px; }
-=======
-  width: 320px;
-  height: auto;
-  margin-bottom: 30px;
-  background: none;
-  border: #99003d 2px solid;
-  box-shadow: -8px 10px #2e2e2e6b; }
-  .card img {
-    width: 280px;
-    height: auto; }
 
 .galeria_titulo {
   color: #99003d;
@@ -2746,4 +2733,3 @@ footer {
 
 .img_galeria {
   margin-bottom: 30px; }
->>>>>>> features/galeria
