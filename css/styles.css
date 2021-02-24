@@ -2709,3 +2709,17 @@ footer {
     transform: translate(-30px); }
   .servicios__cont .moverDerecha {
     transform: translate(30px); }
+
+.sinmargen {
+  margin-bottom: 0px; }
+
+.banner_img {
+  margin-bottom: 50px; }
+
+.card {
+  margin-bottom: 40px; }
+  .card .img_card {
+    height: 450px;
+    width: auto; }
+  .card .card-text {
+    font-size: 20px; }
