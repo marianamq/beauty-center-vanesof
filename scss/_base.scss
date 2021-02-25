@@ -9,7 +9,7 @@ nav{
     margin-bottom: 2.5rem;
     font-family: 'Josefin Sans', sans-serif;
     .nav-item{
-        margin-left: 0.3;
+        margin-left: 0.3rem;
         .nav-link{
             text-transform: uppercase;
         }
@@ -163,7 +163,7 @@ footer{
 .galeria_cont{
     color: $wine;
     width: 50rem;
-    margin-bottom: 40px;
+    margin-bottom: 2.5rem;
     .cont-tittle{
         font-size: 2.4rem;
         color: $pink;
@@ -202,4 +202,89 @@ footer{
     to{
         opacity: 1;
     }
+}
+
+@media(max-width:850px){
+
+    .carousel{
+        width: 400px;
+        height: auto;
+        margin:auto;
+        
+    }
+    
+    .inicio__texto{
+        margin: auto;
+        & h1{
+            margin-bottom: 4rem;
+            font-weight: bold;
+        }
+    }
+    
+    .nosotros__title{
+        font-weight: bold;
+        .nosotros__text--p{
+            font-size: 1.3rem;    
+        }
+    }
+
+    .nosotros__img img{
+        width: 320px;
+    }
+
+    .img_card{
+        height: auto;
+    }
+
+    .galeria_cont{
+        width: 40rem;
+        .cont-tittle{
+            font-size: 2.1rem;
+        }
+        .cont-text{
+            font-size: 1.1rem;
+        }
+    }
+    .mapa p{
+        text-align: start;
+    }
+}
+
+@media (min-width:500px) and (max-width:849px){
+
+    .navbar{
+        padding: 0px;
+    }
+
+    .navbar-brand img{
+        margin-top: 0px;
+        height: 4.3rem;
+    }
+    
+    .navbar-nav{
+        background-color: lighten($light, 5%);
+        .nav-item:hover{
+            background-color: antiquewhite;
+        }
+    }
+
+    footer .footer_info a{
+        font-size: 0.7rem;
+        margin: auto;
+    }
+
+    footer .footer_icon{
+        font-size: 1.5rem;
+        justify-items: center;
+    }
+
+    .galeria_cont{
+        width: 25rem;
+    }
+
+    iframe{
+        width: 450px;
+        height: 250px;
+    }
+
 }

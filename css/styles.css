@@ -7199,7 +7199,7 @@ nav {
   margin-bottom: 2.5rem;
   font-family: 'Josefin Sans', sans-serif; }
   nav .nav-item {
-    margin-left: 0.3; }
+    margin-left: 0.3rem; }
     nav .nav-item .nav-link {
       text-transform: uppercase; }
   nav .navbar-collapse {
@@ -7317,7 +7317,7 @@ footer {
 .galeria_cont {
   color: #99003d;
   width: 50rem;
-  margin-bottom: 40px; }
+  margin-bottom: 2.5rem; }
   .galeria_cont .cont-tittle {
     font-size: 2.4rem;
     color: #e6005c; }
@@ -7346,3 +7346,52 @@ footer {
     opacity: 0; }
   to {
     opacity: 1; } }
+
+@media (max-width: 850px) {
+  .carousel {
+    width: 400px;
+    height: auto;
+    margin: auto; }
+  .inicio__texto {
+    margin: auto; }
+    .inicio__texto h1 {
+      margin-bottom: 4rem;
+      font-weight: bold; }
+  .nosotros__title {
+    font-weight: bold; }
+    .nosotros__title .nosotros__text--p {
+      font-size: 1.3rem; }
+  .nosotros__img img {
+    width: 320px; }
+  .img_card {
+    height: auto; }
+  .galeria_cont {
+    width: 40rem; }
+    .galeria_cont .cont-tittle {
+      font-size: 2.1rem; }
+    .galeria_cont .cont-text {
+      font-size: 1.1rem; }
+  .mapa p {
+    text-align: start; } }
+
+@media (min-width: 500px) and (max-width: 849px) {
+  .navbar {
+    padding: 0px; }
+  .navbar-brand img {
+    margin-top: 0px;
+    height: 4.3rem; }
+  .navbar-nav {
+    background-color: #fac4c9; }
+    .navbar-nav .nav-item:hover {
+      background-color: antiquewhite; }
+  footer .footer_info a {
+    font-size: 0.7rem;
+    margin: auto; }
+  footer .footer_icon {
+    font-size: 1.5rem;
+    justify-items: center; }
+  .galeria_cont {
+    width: 25rem; }
+  iframe {
+    width: 450px;
+    height: 250px; } }
