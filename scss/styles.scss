@@ -1,199 +1,46 @@
-@import 'bootstrap-reboot.scss';
-@import 'root';
-@import 'buttons';
-@import 'card';
-@import 'carousel';
-@import 'dropdown';
-@import 'forms';
-@import 'grid';
-@import 'images';
-@import 'tables';
-@import 'transitions';
-
-
 
 $wine: #99003d;
 $pink: #e6005c;
 $violet:#8a2be2;
+$purple: #5a0225;
+$white: #ffff;
+$rose: #f6d6d9;
 
-$light: #f0cddb;
-$dark: #0A0212;
+
+$light: #F8ADB4;
+$dark: #3b0219;
 
 $colors: (
     "wine": $wine,
     "pink": $pink,
-    "violet": $violet
+    "violet": $violet,
+    "purple": $purple,
+    "white": $white,
+    "rose": $rose,
 );
 
-$primary: #99003d;
-$secondary: #e6005c;
-$info:#8a2be2;
+$primary:   $wine;
+$secondary: $pink;
+$info:      $violet;
+$success:   $purple;
+$white: $white;
+$rose: $rose;
 
-$body-bg: $light;
-$body-color: $violet;
+$yiq-text-dark:             $purple;
 
+$body-bg: $rose;
+$body-color: $purple;
 
-$link-hover-color: darken($light, 15%);
-$link-hover-decoration: none;
-
-$grid-gutter-width: 25px;
-
-body{
-    background-image: url(../images/pink_rice.png);
-    font-family: 'Josefin Sans', sans-serif;
-}
-
-nav{
-    background-color: #F8ADB4;
-    height: 80px;
-    margin-bottom: 40px;
-    .nav-item{
-        margin: 5px;
-        .nav-link{
-            text-transform: uppercase;
-        }
-    }
-    .dropdown-menu{
-        background-color: #f6d6d9;
-        .dropdown-item{
-            text-transform: uppercase;
-        }
-    }
-}
-
-.carousel{
-    padding: 15px;
-}
+$navbar-light-color:                $wine;
+$navbar-light-hover-color:          $pink;
+$navbar-light-active-color:         $purple;
+$dropdown-bg:                       $rose;
+$dropdown-border-color:             darken($rose, 5%);
+$dropdown-link-color:               $wine;
+$dropdown-link-hover-color:         $pink;
+$dropdown-link-hover-bg:            darken($rose, 5%);
+$card-bg:                           lighten($rose, 8%);
 
 
-.inicio__contenido{
-    font-family: 'Raleway', sans-serif;
-}
-
-footer{
-    margin-top: 20px;
-    padding: 10px;
-    background-color: #F8ADB4;
-    color: #5a0225;
-    .footer_info a{
-        text-transform: uppercase;
-        font-size: 13px;
-        margin: 5px;
-        margin-left: 10px;
-    }
-    .footer_icon{
-        color: #5a0225;
-        font-size: 35px;
-        margin: 15px;
-    }
-}
-
-.nosotros__container{
-    transition: all 1s ease-in-out;
-    .nosotros__title{
-        font-size: 50px;
-        margin-bottom: 30px;
-    }
-    .nosotros__text--p{
-        padding: 1rem;
-        color: blueviolet;
-        font-size: 20px;
-        text-align: justify;
-        font-family: 'Raleway', sans-serif;       
-    }
-    .nosotros__img img{
-        transition: all 1s ease-in-out;
-        margin: 2px;
-        &:hover{
-            transform: translate(30px) scale(1.2);
-            transform-origin: center;
-            box-shadow: -10px 10px #99003d6b;
-        }
-    }
-}
-
-
-
-.servicios__cont{
-    display: flex;
-    justify-content: center;
-    height: 250px;
-    padding: 1rem;
-    margin-bottom: 30px;
-    text-align: center;
-    align-items: center;
-    animation-name: desvanecer;
-    animation-duration: 2s;
-    animation-delay: 1s;
-    .servicios__card{
-        display: block;
-        .servicios__card--title{
-            display: inline;
-            padding: 5px;
-            font-size: 40;
-            text-transform: uppercase;
-            color:#e6005c;
-        }
-        .servicios__card--p{
-            display:block;
-            color: blueviolet;
-            font-size: 20px;
-            width: 600px;
-            padding: 10px;
-            margin: 10px;
-            text-align: justify;
-            font-family: 'Raleway', sans-serif; 
-        }
-    }
-    & img{
-        height: 100%;
-        margin: 5px;
-        box-shadow: 5px 5px #8b8b8b32;
-        border-radius: 2%;
-        transition: all 1s ease;
-        &:hover{
-            transform: translate(10px) scale(1.1);
-            transform-origin: center;
-            box-shadow: -10px 10px #99003d6b;
-        }
-    }
-    .moverIzquierda{
-        transform: translate(-30px);
-    }
-    .moverDerecha{
-        transform: translate(30px)
-    }
-}
-
-.sinmargen{
-    margin-bottom: 0px;
-}
-
-.banner_img{
-    margin-bottom: 50px;
-}
-
-.card{
-    margin-bottom: 40px;
-    .img_card{
-        height: 450px;
-        width: auto;
-    }
-}
-
-.galeria_titulo{
-    color: #99003d;
-    width: 800px;
-    
-    margin-bottom: 40px;
-    & h1{
-        font-size: 30px;
-    }
-    & h3{
-        font-size: 20px;
-    }
-}
-
-.img_galeria{
-    margin-bottom: 30px;
-}
+@import "./bootstrap.scss";
+@import "base.scss"

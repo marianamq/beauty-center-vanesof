@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Raleway:ital,wght@1,300&display=swap" rel="stylesheet" rel="stylesheet">
-    <title>Beauty Center Vanesof</title>
+    <title>Contacto</title>
     <script src="https://kit.fontawesome.com/c91ce8e860.js" crossorigin="anonymous"></script>
   </head>
 
@@ -21,8 +21,7 @@
     <header>
       <nav class="navbar navbar-expand-md navbar-light">
         <a class="navbar-brand" href="index.html">
-          <img src="./images/logo_beuty-center.jpg" height="80px "alt="logo-beauty-center-vanesof"> 
-          Beauty Center
+          <img src="./images/logo_beauty-center.png" height="80px "alt="logo-beauty-center-vanesof"> 
         </a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,7 +30,7 @@
         
         <div class="collapse navbar-collapse" id="navbarMenu">
           <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
+            <li class="nav-item">
               <a class="nav-link" href="./index.html">Inicio</a>
             </li>
             <li class="nav-item">
@@ -55,7 +54,7 @@
               <a class="nav-link" href="./galeria.html">Galeria</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./contacto.html">Contacto</a>
+              <a class="nav-link active" href="./contacto.html">Contacto</a>
             </li>
           </ul>
         </div>
@@ -66,10 +65,9 @@
         
     <section class="container">
       <div class="form_contacto">
-        <h2>¡Déjanos acá tus datos si querés reservar una cita o un curso!</h2>
-                
         <div class="row">
-          <div class="col-6">
+          <div class="col-lg-6 col-md-12">
+            <h2>¡Déjanos acá tus datos si querés reservar una cita o curso!</h2>
             <form action="">
               <div class="form-group row">
                 <label for="" class="col-2 col-form-label">Nombre:</label>
@@ -80,8 +78,8 @@
                 <input type="text" placeholder="Perez" class="form-control col-10">
               </div>
               <div class="form-group row">
-                <label for="" class="col-2 col-form-label">Núm de Contacto:</label>
-                <input type="tel" placeholder="11 6328-7678" class="form-control col-10">
+                <label for="" class="col-4 col-form-label">Núm de Contacto:</label>
+                <input type="tel" placeholder="11 6328-7678" class="form-control col-8">
               </div>
               <div class="form-group row">
                 <label for="" class="col-2 col-form-label">E-mail:</label>
@@ -97,9 +95,26 @@
               </div>
               <div class="form-group row">
                 <label for="">Escribe tu consulta ¡pronto nos contactaremos contigo!</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                <textarea class="form-control" id="text-areaContacto" rows="3"></textarea>
+                <div class="form-check">
+                  <input class="form-check-input position-static" type="radio" name="blankRadio" id="blankRadio1" value="option1" aria-label="...">
+                  <label class="form-check-label" for="inlineRadio1">
+                    Quiero recibir emails sobre cursos/promos.
+                  </label>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
               </div>
             </form>
+          </div>
+          <div class="mapa col-lg-6 col-md-12">
+            <p>Te dejamos un mapita con nuestra ubicación📍</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.
+            013569993202!2d-58.40762318505228!3d-34.603818365009936!2m3!1f0!2f0!3f0!
+            3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca92a512f097%3A0xd3696b522d9ab5c4!2sAv.
+            %20Pueyrred%C3%B3n%20562%2C%20C1405%20BAP%2C%20Buenos%20Aires!5e0!3m2!1ses-419!
+            2sar!4v1614226554498!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" 
+            allowfullscreen="" loading="lazy"></iframe>
+            <p>Encuentra la mejor ruta y vísitanos, te esperamos🥰💅</p>
           </div>
         </div>
       </div>
@@ -113,7 +128,7 @@
         <a href="contacto.html" class="text-reset">Contáctanos</a>
         <a href="#" class="text-reset">Términos y Condiciones</a>
       </div>
-      <div class="footer_icons d-flex justify-content-center ">
+      <div class="footer_icons d-flex justify-content-center">
         <a href="https://wa.link/s5kvev"><i class="footer_icon fab fa-whatsapp"></i></a>
         <a href="https://www.facebook.com/"><i class="footer_icon fab fa-facebook-f"></i></a>
         <a href="https://www.instagram.com/beautycentervs/"><i class="footer_icon fab fa-instagram"></i></a>

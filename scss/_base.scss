@@ -1,0 +1,205 @@
+body{
+    background-image: url(../images/pink_rice.png);
+    font-family: 'Raleway', sans-serif;
+}
+
+nav{
+    background-color: $light;
+    height: 5rem;
+    margin-bottom: 2.5rem;
+    font-family: 'Josefin Sans', sans-serif;
+    .nav-item{
+        margin-left: 0.3;
+        .nav-link{
+            text-transform: uppercase;
+        }
+    }
+    .navbar-collapse{
+        z-index: 2;
+    }
+    .dropdown-menu{
+        background-color: #f6d6d9;
+        .dropdown-item{
+            text-transform: uppercase;
+        }
+    }
+}
+
+.carousel{
+    padding: 1rem;
+    z-index: 1;
+}
+
+
+.inicio__texto{
+    font-family: 'Raleway', sans-serif;
+    font-size: 2rem;
+    & h1{
+        font-size: 3rem;
+        color: $pink;
+    }
+}
+
+footer{
+    margin-top: 1.2rem;
+    padding: 0.6rem;
+    background-color: $light;
+    color: $purple;
+    font-family: 'Josefin Sans', sans-serif;
+    .footer_info a{
+        text-transform: uppercase;
+        font-size: 1rem;
+        margin: 0.3rem;
+        margin-left: 0.6rem;
+    }
+    .footer_icon{
+        color: $purple;
+        font-size: 2rem;
+        margin: 1rem;
+    }
+}
+
+.nosotros__container{
+    transition: all 1s ease-in-out;
+    animation-name: desvanecer;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    .nosotros__title{
+        font-size: 2.1rem;
+        margin-bottom: 2rem;
+        text-transform: uppercase;
+        text-decoration:solid;
+        color: $wine;
+    }
+    .nosotros__text--p{
+        padding: 0.12rem;
+        color: $violet;
+        font-size: 1.2rem;
+        text-align: justify;
+        font-family: 'Raleway', sans-serif;
+        margin-top: 0.12rem;    
+    }
+    .nosotros__img img{
+        align-self: center;
+        transition: all 1s ease-in-out;
+        margin: 0.1;
+        &:hover{
+            transform: translate(30px) scale(1.2);
+            transform-origin: center;
+            box-shadow: -0.6rem 0.6rem #99003d6b;
+        }
+    }
+}
+
+
+.cont_servicios{
+    animation-name: desvanecer;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    .servicios__tittle{
+        color: $wine;
+        font-size: 3rem;
+        font-family: 'Josefin Sans', sans-serif;
+        justify-self: center;
+        margin-bottom: 2rem;
+    }
+    .col_servicios{
+        margin-bottom: 2rem;
+        & img{
+            border-radius: 2%;
+            box-shadow: 5px 5px #8b8b8b32;
+            border-radius: 2%;
+            transition: all 1s ease;
+            & img:hover{
+                transform: translate(30px) scale(1.2);
+                transform-origin: center;
+                box-shadow: -0.6rem 0.6rem #99003d6b;
+            }
+        }
+    }
+    .servicios__card{
+        align-items: center;
+        .servicios__card--title{
+            font-size: 2.3rem;
+            color: $pink;
+        }
+        .servicios__card--p{
+            font-size: 1.2rem;
+            color: $violet;
+            justify-content: center;
+        }
+    }
+}
+
+
+.sinmargen{
+    margin-bottom: 0px;
+}
+
+.banner_img{
+    margin-bottom: 3rem;
+}
+
+.cont_cursos{
+    animation-name: desvanecer;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    .card{
+        margin-bottom: 2.5rem;
+        .img_card{
+            height: 28.1rem;
+            width: auto;
+        }
+        .card-text{
+            font-size: 1.1rem;
+            & a{
+                font-weight: 100;
+            }
+        }
+    }
+}
+
+
+.galeria_cont{
+    color: $wine;
+    width: 50rem;
+    margin-bottom: 40px;
+    .cont-tittle{
+        font-size: 2.4rem;
+        color: $pink;
+    }
+    .cont-text{
+        font-size: 1.4rem;
+        color: $wine;
+    }
+}
+
+.img_galeria{
+    margin-bottom: 2rem;
+}
+
+.form_contacto{
+    font-size: 2rem;
+    color: $pink;
+    label{
+        font-size: 1.1rem;
+        color: $wine;
+    }
+    .btn{
+        margin: 0.6rem;
+    }
+}
+
+.mapa p{
+    font-size: 1.2rem;
+    text-align: end;
+}
+
+@keyframes desvanecer{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
